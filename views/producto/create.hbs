@@ -1,0 +1,21 @@
+<div class="container">
+    <h3><a href="/productos">Lista de productos</a></h3>
+    <h1>Crear Producto Nuevo</h1>
+    <form action="/productos/save" method="post">
+
+        <div class="form-group">
+            <label for="nombreInput">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese Nombre">
+        </div>
+        <div class="form-group">
+            <label for="precioInput">Precio</label>
+            <input type="text" class="form-control" id="precio" name="precio" placeholder="Ingrese Precio">
+        </div>
+        <div class="form-group">
+            <label for="stockInput">Stock</label>
+            <input type="text" class="form-control" id="stock" name="stock" placeholder="Ingrese Stock">
+        </div>
+        <button class="btn btn-primary" type="submit">Grabar</button>
+        
+    </form>
+</div>
